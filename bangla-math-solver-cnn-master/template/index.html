@@ -1,0 +1,11 @@
+{%extends 'base.html'%}
+{% block body %}
+
+<div style="min-height: calc(100vh - 56px); background-image: url('https://www.theurbanbarberassociation.org/wp-content/uploads/2016/05/pexels-katerina-holmes-5905700.jpg'); background-repeat: no-repeat;   background-size: cover;  background-position: center;" class="bg-primary">
+    <a  href="{%url 'upload'%}" class="d-flex flex-column align-items-center justify-content-center pt-5">
+        <img src="http://localhost:8000/media/local/upload.png" style="height: 100px; width:100px" />
+        
+    </a>
+</div>
+
+{% endblock %}
